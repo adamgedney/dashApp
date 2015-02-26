@@ -25,7 +25,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Dashboardly</a>
+                <a class="navbar-brand" href="index.html">{{title}}</a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
@@ -136,7 +136,10 @@
             <div class="container-fluid">
 
 
-            		<p>test</p>
+            		<div style="border: 3px solid #333; max-width: 50%; padding: 9px" class="draggable resize" id="test" ng-repeat="f in frames">
+            		<p>{{f}}</p>
+            			<iframe style="width: 100%; height: 100%;" ng-src="http://adamgedney.com" ></iframe>
+            		</div>
 
 
             </div>
