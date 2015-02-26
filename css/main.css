@@ -5,3 +5,7 @@
 #wrapper{
   padding-left: 0;
 }
+
+iframe{
+	border: none;
+}
